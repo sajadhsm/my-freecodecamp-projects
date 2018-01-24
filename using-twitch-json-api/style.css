@@ -1,0 +1,138 @@
+:root {
+  --purple: #6441a4;
+  --black: #383F44;
+  --red: #E84118;
+  --green: #4CD237;
+  --shadow: rgba(0, 0, 0, 0.16);
+}
+
+html {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  padding: 25px;
+  background: #EAECF3;
+  color: var(--black);
+}
+
+img {
+  width: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.streamers {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  grid-gap: 15px;
+}
+
+.grid-item {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.streamer {
+  position: relative;
+  top: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-radius: 4px;
+  background: #FDFEFE;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: 0 2px 1px 0 var(--shadow);
+  transition: all .23s;
+}
+
+.streamer:hover {
+  top: -5px;
+  box-shadow: 0 7px 10px -2px var(--shadow);
+}
+
+.logo {
+  max-width: 90px;
+  border-right: 1px solid #ddd;
+}
+
+.info {
+  padding: 5px 5px 5px 10px;
+}
+
+.name {
+  margin: 0 0 2px 0;
+}
+
+.game {
+  margin: 0 0 10px 0;
+}
+
+.vwrs {
+  font-size: .85em;
+  color: #7D8C9B;
+}
+
+.status {
+  position: absolute;
+  right: 7px;
+  top: 7px;
+  width: 10px;
+  height: 10px;
+  background: #ddd;
+  border-radius: 50%;
+}
+
+.online {
+  background: var(--green);
+}
+
+.offline {
+  background: var(--red);
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  margin: 0 0 25px 0;
+  background: var(--purple);
+  color: #fff;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.nav-title {
+  padding: 0 15px;
+}
+
+.navigation ul {
+  display: flex;
+  list-style: none;
+}
+
+.navigation ul li {
+  padding: 15px;
+  cursor: pointer;
+  transition: background .23s;
+}
+
+.navigation ul li:hover {
+  background: #845acf;
+}
+
+.active {
+  background: #845acf;
+}
