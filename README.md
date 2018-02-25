@@ -9,5 +9,8 @@ Preview: [codepen](https://codepen.io/sajadhsm/full/ppxqrR/)
 **Wikipedia Viewer**  
 Preview: [codepen](https://codepen.io/sajadhsm/full/dJQENB/)
 
-**Using Twitch.tv JSON API**
-Preview: [codepen](https://codepen.io/sajadhsm/pen/ZvPRga)
+**Using Twitch.tv JSON API**  
+Preview: [codepen](https://codepen.io/sajadhsm/full/ZvPRga/)
+
+**Build a Tribute Page**  
+Preview: [codepen](https://codepen.io/sajadhsm/full/YeJKWe/)

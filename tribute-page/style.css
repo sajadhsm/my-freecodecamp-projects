@@ -1,0 +1,60 @@
+html {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+.mar-b {
+  margin: 0 0 25px 0;
+}
+
+.hero {
+  padding: 125px 50px;
+  color: #fff;
+  background: url('http://www.worldsultimate.net/wp-content/uploads/2017/08/Legend-Dennis-Ritchie.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero h1 {
+  font-size: 4em;
+  margin: 0 0 10px 0;
+}
+.hero p {
+  font-size: 1.5em; 
+}
+
+.information {
+  padding: 25px 50px;
+}
+
+.information p {
+  line-height: 1.3em;
+}
+
+.timeline h3 {
+  margin: 0 0 20px 0;
+}
+.timeline-items p {
+  margin: 0 0 15px 0;
+}
+
+.quote {
+  padding: 10px;
+  background: #f7f7f7;
+  border-left: 5px solid #ddd;
+}
+.quote q {
+  font-weight: 700;
+}
+.quote p {
+  text-align: right;
+}
